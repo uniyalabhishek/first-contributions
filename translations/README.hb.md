@@ -15,7 +15,7 @@
 </div>
 
 <div dir="rtl">
-<h4> אם אינכם חשים בנוח להשתמש בשורת פקודה, ניתן להשתמש 
+<h4> אם אינכם חשים בנוח להשתמש בשורת פקודה, ניתן להשתמש
 <a href="#הדרכות-בשימוש-כלים-אחרים">בכלים גרפיים</a>.</h4>
 </div>
 
@@ -49,7 +49,7 @@
 </div>
 
 <div dir="rtl">
-  
+
 כעת, שכפלו את המאגר הזה למחשב שלכם. לכו לדף ה-GitHub שלכם, לחצו על כפתור השכפול ואז לחצו על הצלמית `copy to clipboard`.
 
 פתחו טרמינל והריצו את הפקודה הבאה:
@@ -61,7 +61,7 @@ git clone "url you just copied"
 ```
 
 <div dir="rtl">
-  
+
 כאשר הביטוי `"url you just copied"` (ללא סימני הגרשיים) הוא הקישור למאגר זה שביצעתם עליו FORK קודם לכן. ראו את הצעדים הקודמים כדי להשיג את הקישור.
 </div>
 
@@ -76,7 +76,7 @@ git clone https://github.com/this-is-you/first-contributions.git
 ```
 
 <div dir="rtl">
-  
+
 כאשר `this-is-you` הוא שם המשתמש שלכם ב-GitHub. לכאן אתם מעתיקים את התוכן של מאגר first-contributions ב-GitHub לתוך המחשב שלכם.
 </div>
 
@@ -93,7 +93,7 @@ cd first-contributions
 ```
 
 <div dir="rtl">
-  
+
 כעת, תצרו ענף בשימוש הפעולה `git checkout`:
 </div>
 
@@ -118,7 +118,7 @@ git checkout -b add-alonzo-church
 </div>
 
 <div dir="rtl">
-  
+
 כעת פתחו את הקובץ `Contributors.md` בתוכנת עריכת טקסט והוסיפו את השם שלכם אליו. אל תוסיפו את השם בתחילת הקובץ או בסופו. הוסיפו אותו באמצע. לאחר שסיימתם, שמרו את הקובץ.
 
 אם תנווטו לתיקיית הפרויקט ותבצעו את הפעולה `git status`, תוכלו לראות את השינויים
@@ -131,7 +131,7 @@ git add Contributors.md
 ```
 
 <div dir="rtl">
-  
+
 עכשיו, בצעו commit לשינויים הללו תוך שימוש בפקודת `git commit`:
 </div>
 
@@ -140,7 +140,7 @@ git commit -m "Add <your-name> to Contributors list"
 ```
 
 <div dir="rtl">
-  
+
 החליפו את הביטוי `<your-name>` עם השם שלכם.
 </div>
 
@@ -149,7 +149,7 @@ git commit -m "Add <your-name> to Contributors list"
 </div>
 
 <div dir="rtl">
-  
+
 דחפו את השינויים תוך שימוש בפקודה `git push`:
 </div>
 
@@ -158,7 +158,7 @@ git push origin <add-your-branch-name>
 ```
 
 <div dir="rtl">
-  
+
 החליפו את `<add-your-branch-name>` עם השם של הענף שיצרתם מוקדם יותר.
 </div>
 
@@ -167,7 +167,7 @@ git push origin <add-your-branch-name>
 </div>
 
 <div dir="rtl">
-  
+
 אם תלכו למאגר שלכם ב-GitHub, תוכלו לראות כפתור עם הכיתוב `Compare & pull request`. לחצו על כפתור זה.
 
 <img style="float: left;" src="https://firstcontributions.github.io/assets/Readme/compare-and-pull.png" alt="create a pull request" />
