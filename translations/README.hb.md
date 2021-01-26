@@ -15,7 +15,7 @@
 </div>
 
 <div dir="rtl">
-<h4> אם אינכם חשים בנוח להשתמש בשורת פקודה, ניתן להשתמש 
+<h4> אם אינכם חשים בנוח להשתמש בשורת פקודה, ניתן להשתמש
 <a href="#הדרכות-בשימוש-כלים-אחרים">בכלים גרפיים</a>.</h4>
 </div>
 
@@ -40,7 +40,6 @@
 כדי לבצע FORK למאגר זה, ניתן ללחוץ על כפתור ה – FORK בתחילת העמוד. פעולה זה תיצור עותק של מאגר זה בחשבון שלכם.
 </div>
 
-
 <div dir="rtl">
 <h2> שכפול המאגר </h2>
 </div>
@@ -50,17 +49,19 @@
 </div>
 
 <div dir="rtl">
-  
+
 כעת, שכפלו את המאגר הזה למחשב שלכם. לכו לדף ה-GitHub שלכם, לחצו על כפתור השכפול ואז לחצו על הצלמית `copy to clipboard`.
 
 פתחו טרמינל והריצו את הפקודה הבאה:
+
 </div>
 
 ```
 git clone "url you just copied"
 ```
+
 <div dir="rtl">
-  
+
 כאשר הביטוי `"url you just copied"` (ללא סימני הגרשיים) הוא הקישור למאגר זה שביצעתם עליו FORK קודם לכן. ראו את הצעדים הקודמים כדי להשיג את הקישור.
 </div>
 
@@ -73,8 +74,9 @@ git clone "url you just copied"
 ```
 git clone https://github.com/this-is-you/first-contributions.git
 ```
+
 <div dir="rtl">
-  
+
 כאשר `this-is-you` הוא שם המשתמש שלכם ב-GitHub. לכאן אתם מעתיקים את התוכן של מאגר first-contributions ב-GitHub לתוך המחשב שלכם.
 </div>
 
@@ -89,14 +91,16 @@ git clone https://github.com/this-is-you/first-contributions.git
 ```
 cd first-contributions
 ```
+
 <div dir="rtl">
-  
+
 כעת, תצרו ענף בשימוש הפעולה `git checkout`:
 </div>
 
 ```
 git checkout -b your-new-branch-name
 ```
+
 <div dir="rtl">
   לדוגמא:
 </div>
@@ -114,27 +118,29 @@ git checkout -b add-alonzo-church
 </div>
 
 <div dir="rtl">
-  
+
 כעת פתחו את הקובץ `Contributors.md` בתוכנת עריכת טקסט והוסיפו את השם שלכם אליו. אל תוסיפו את השם בתחילת הקובץ או בסופו. הוסיפו אותו באמצע. לאחר שסיימתם, שמרו את הקובץ.
 
+אם תנווטו לתיקיית הפרויקט ותבצעו את הפעולה `git status`, תוכלו לראות את השינויים
+שביצעתם שם. הוסיפו את השינויים האלו לענף שיצרתם תוך שימוש בפקודה `git add`:
 
-אם תנווטו לתיקיית הפרויקט ותבצעו את הפעולה `git status`, תוכלו לראות את השינויים שביצעתם שם.
-הוסיפו את השינויים האלו לענף שיצרתם תוך שימוש בפקודה `git add`:
 </div>
 
 ```
 git add Contributors.md
 ```
+
 <div dir="rtl">
-  
+
 עכשיו, בצעו commit לשינויים הללו תוך שימוש בפקודת `git commit`:
 </div>
 
 ```
 git commit -m "Add <your-name> to Contributors list"
 ```
+
 <div dir="rtl">
-  
+
 החליפו את הביטוי `<your-name>` עם השם שלכם.
 </div>
 
@@ -143,15 +149,16 @@ git commit -m "Add <your-name> to Contributors list"
 </div>
 
 <div dir="rtl">
-  
+
 דחפו את השינויים תוך שימוש בפקודה `git push`:
 </div>
 
 ```
 git push origin <add-your-branch-name>
 ```
+
 <div dir="rtl">
-  
+
 החליפו את `<add-your-branch-name>` עם השם של הענף שיצרתם מוקדם יותר.
 </div>
 
@@ -160,7 +167,7 @@ git push origin <add-your-branch-name>
 </div>
 
 <div dir="rtl">
-  
+
 אם תלכו למאגר שלכם ב-GitHub, תוכלו לראות כפתור עם הכיתוב `Compare & pull request`. לחצו על כפתור זה.
 
 <img style="float: left;" src="https://firstcontributions.github.io/assets/Readme/compare-and-pull.png" alt="create a pull request" />
@@ -169,7 +176,9 @@ git push origin <add-your-branch-name>
 
 <img style="float: right;" src="https://firstcontributions.github.io/assets/Readme/submit-pull-request.png" alt="submit pull request" />
 
-בקרוב, אני אצרף את כל השינויים לתוך הענף הראשי של פרויקט זה. אתם תקבלו עדכון במייל ברגע שהשינויים ימוזגו.
+בקרוב, אני אצרף את כל השינויים לתוך הענף הראשי של פרויקט זה. אתם תקבלו עדכון
+במייל ברגע שהשינויים ימוזגו.
+
 </div>
 
 <div dir="rtl">
@@ -187,9 +196,12 @@ git push origin <add-your-branch-name>
 אתם יכולים להצטרף לצוות הסלאק שלנו אם אתם צריכים עזרה או אם יש לכם שאלות.
 <a href="https://join.slack.com/t/firstcontributors/shared_invite/enQtMzE1MTYwNzI3ODQ0LTZiMDA2OGI2NTYyNjM1MTFiNTc4YTRhZTg4OWZjMzA0ZWZmY2UxYzVkMzI1ZmVmOWI4ODdkZWQwNTM2NDVmNjY">הצטרפו לקבוצת סלאק</a>.
 
-עכשיו אפשר להתחיל לתרום לפרוייקטים אחרים. הכנו רשימה של פרוייקטים על נושאים קלים שאתם יכולים להתחיל לעבוד עליהם.
+עכשיו אפשר להתחיל לתרום לפרוייקטים אחרים. הכנו רשימה של פרוייקטים על נושאים קלים
+שאתם יכולים להתחיל לעבוד עליהם.
 
-<a href="https://roshanjossey.github.io/first-contributions/#project-list">רשימה של פרוייקטים ב-web app</a>.
+<a href="https://roshanjossey.github.io/first-contributions/#project-list">רשימה
+של פרוייקטים ב-web app</a>.
+
 </div>
 
 <div dir="rtl">
